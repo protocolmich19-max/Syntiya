@@ -9,7 +9,7 @@ from handlers.video import generate_video
 from handlers.music import generate_music
 
 load_dotenv()
-TOKEN = os.getenv("TELEGRAM_TOKEN")
+TOKEN = os.getenv("8045986755:AAF9df3RHzDFCvg5nMw-0cJiVPXQdkoqNso")
 reply_keyboard = [["💬 Чат с ИИ", "🖼 Генерация фото"], ["🎥 Генерация видео", "🎵 Создание музыки"]]
 
 def start(update: Update, context: CallbackContext):
